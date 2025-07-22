@@ -1,9 +1,19 @@
 name: lsp
-version: 0.1.2
+version: 0.2.0
+description: A comprehensive Language Server Protocol implementation with enhanced Windows compatibility
 
 authors:
   - Julien Elbaz <elbywan@hotmail.com>
 
-crystal: 1.6.1
+crystal: ">= 1.6.1"
 
 license: MIT
+
+targets:
+  lsp-example:
+    main: examples/windows_compatible_controller.cr
+
+development_dependencies:
+  ameba:
+    github: crystal-ameba/ameba
+    version: ~> 1.5.0
