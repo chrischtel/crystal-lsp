@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.0.0] - 2025-07-22 - Windows Compatibility Rewrite
+## [1.0.0] - 2025-07-22 - Windows Compatibility Rewrite
 
 ### 🚀 Major Features Added
 
